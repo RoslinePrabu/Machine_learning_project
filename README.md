@@ -7,6 +7,7 @@ This is first Machine Learning Project
 2.[Heroku Account](https://dashboard.heroku.com/login)
 3.[VS Code IDE](https://code/visualstudio.com/download)
 4.[Git Cli](https://git-scm.com/downloads) 
+5.[Git Documentation](https://git-scm.com/docs/gittutorial)
 
 
 creating conda environment
@@ -60,4 +61,37 @@ git push origin main
 To check remote url
 ```
 git remote -v
+```
+To setup CI/CD  pipeline in heroku we need 3 information
+
+
+1.HEROKU_EMAIL=rosy.prabu@gmail.com
+2.HEROKU_API_KEY=0e480d85-3992-4db9-89b7-50f664c73ada
+3.HEROKU_APP_NAME=ml-flask-app-git
+
+BUILD DOCKER IMAGE
+```
+docker build -t <image_name>:<tagname> .
+
+```
+
+Note:Image name for docker must be lowercase
+
+To list docker image
+```
+docker images
+```
+Run Docker image
+```
+docker run -p 5000:5000 -e PORT=5000 
+
+```
+To check running container in docker
+```
+docker ps
+```
+
+To stop docker container
+```
+docker stop <container_id>
 ```
