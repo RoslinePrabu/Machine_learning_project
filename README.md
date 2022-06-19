@@ -66,7 +66,7 @@ To setup CI/CD  pipeline in heroku we need 3 information
 
 
 1.HEROKU_EMAIL=rosy.prabu@gmail.com
-2.HEROKU_API_KEY=0e480d85-3992-4db9-89b7-50f664c73ada
+2.HEROKU_API_KEY=<>
 3.HEROKU_APP_NAME=ml-flask-app-git
 
 BUILD DOCKER IMAGE
